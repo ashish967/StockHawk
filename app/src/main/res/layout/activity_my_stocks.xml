@@ -1,5 +1,5 @@
 
-<FrameLayout
+<android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:fab="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,7 +12,17 @@
       android:layout_height="match_parent"
       />
 
-  <com.melnykov.fab.FloatingActionButton
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:visibility="visible"
+      android:textSize="@dimen/error_msg_size"
+      android:textColor="?attr/colorPrimary"
+      android:layout_margin="@dimen/activity_horizontal_margin"
+      android:id="@+id/tv_empty_message"
+      android:text="@string/empty_list_message"/>
+  <android.support.design.widget.FloatingActionButton
       android:id="@+id/fab"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
@@ -27,4 +37,4 @@
       fab:layout_anchor="recycler_view"
       fab:layout_anchorGravity="bottom | end"
       />
-</FrameLayout>
+</android.support.design.widget.CoordinatorLayout>
