@@ -20,4 +20,5 @@
   <string name="pref_stock_initial_request" translatable="false">init_request</string>
   <string name="action_change_percentage" translatable="false">Change in percentage</string>
   <string name="add_new_stock" translatable="false">Add new stock in list</string>
+  <string name="symbol_exist" translatable="false">This stock is already saved!</string>
 </resources>
